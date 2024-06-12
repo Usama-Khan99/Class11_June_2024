@@ -181,4 +181,16 @@ type Toperation = (a:number, b:number) => number;
 const add1 : Toperation = (num1, num2) => num1 + num2;
 const subtract1 : Toperation = (num1, num2) => num1 - num2;
 
-add1(1,4);
+const result = add1(1,4);
+const result1 = subtract(1,4);
+
+console.log(result,result1);
+
+
+
+// Type Literals 
+
+// set of values dy k user ko restrict karna
+// in teen values m sy hi value dy sakty h jou mention h
+// yaha py values casesensitive h 
+let shirtsixe: 'small' | 'medium' | 'large' = 'large';
