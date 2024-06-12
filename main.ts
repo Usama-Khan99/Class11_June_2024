@@ -167,3 +167,18 @@ let person6 : TPerson = {
     age: 52,
     height: 5
 }
+
+
+// Type Alias in Function 
+
+
+const add = (num1:number, num2:number) :number => num1 + num2;
+const subtract = (num1:number, num2:number) :number => num1 - num2;
+add(1,4);
+// repeatation sy bachny k liye
+type Toperation = (a:number, b:number) => number;
+
+const add1 : Toperation = (num1, num2) => num1 + num2;
+const subtract1 : Toperation = (num1, num2) => num1 - num2;
+
+add1(1,4);
