@@ -51,7 +51,7 @@ console.log(grocery);
 
 
 
-// Objects 
+// Objects (slide no 237)
 // Additional information of value of array 
 // Objects m value curly brackets m di jati h 
 
@@ -77,4 +77,29 @@ console.log(person);
 
 // agr hum chahty h k is object m sy koi ek attribute access kary tou 
 
-console.log(person.home);
+console.log(person.home);   //ye kehlata h . notation k xariye value access karna
+console.log(person['name']); // ye kehlata h square bracket notation k xariye value access karna
+
+
+// agr kisi property ki value ko overwrite/update/modify karna ho tou 
+
+person.name = 'Usama Javed Khan';
+
+console.log(person.name);
+
+// agr 2 value access karna ho tou 
+
+console.log(person.name, person.age, person.mostLovedCity);
+
+// array k ander agr kisi aysi property ko access kary jou mojood na ho tou error nh ayga undefined dyga
+// Object m error dyga
+
+
+// agr object ki her property ko access karna ho tou 
+
+// tou for in loop use hoga 
+// (for in object ki iteration chalata h)
+// for of array ki iteration chalat h 
+
+
+// second assignment for in loop 

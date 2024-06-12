@@ -40,4 +40,10 @@ var person = {
 // value m value seperate hoti h using coma ,
 console.log(person);
 // agr hum chahty h k is object m sy koi ek attribute access kary tou 
-console.log(person.home);
+console.log(person.home); //ye kehlata h . notation k xariye value access karna
+console.log(person['name']); // ye kehlata h square bracket notation k xariye value access karna
+// agr kisi property ki value ko overwrite karna ho tou 
+person.name = 'Usama Javed Khan';
+console.log(person.name);
+// agr 2 value access karna ho tou 
+console.log(person.name, person.age, person.mostLovedCity);
