@@ -103,3 +103,67 @@ console.log(person.name, person.age, person.mostLovedCity);
 
 
 // second assignment for in loop 
+
+
+// Type Alias in TypeScript (Important topic related to Exams)
+
+// Here we use Alias as a nickname 
+
+//Is topic ka javascript sy koi talluq nh h ye srf typescript m h
+
+let person1 : {
+    name: string;
+    age: number;
+    height:number;
+} = {
+    name : "Usama",
+    age: 25,
+    height: 5,
+}
+
+let person2 : {
+    name: string;
+    age: number;
+    height:number;
+} = {
+    name : "Javed",
+    age: 44,
+    height: 6,
+}
+
+let person3 : {
+    name: string;
+    age: number;
+    height:number;
+} = {
+    name : "Khan",
+    age: 52,
+    height: 5,
+}
+
+// jbb bhi programming m hum repeatation kar rahy ho tou mtlb kch galti kar rahy h jesy humny uper code likha h
+// jis m person1 ,2 or 3 k attributes same h or humny bar bar likhy h
+
+type TPerson  = {
+    name: string;
+    age: number;
+    height:number;
+}
+
+let person4 : TPerson = {
+    name : "Usama",
+    age: 52,
+    height: 5
+}
+
+let person5 : TPerson = {
+    name : "Javed",
+    age: 52,
+    height: 5
+}
+
+let person6 : TPerson = {
+    name : "Khan",
+    age: 52,
+    height: 5
+}
