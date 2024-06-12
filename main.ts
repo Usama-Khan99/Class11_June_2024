@@ -49,3 +49,32 @@ console.log(item3);
 console.log(grocery);
 
 
+
+
+// Objects 
+// Additional information of value of array 
+// Objects m value curly brackets m di jati h 
+
+// here name is a attribute/property of a person 
+// Objects k ander order matter nh karta, array k ander order matter karta h
+// types k ander ek value dusri value sy seperate hoti h using semicolon ;
+// Objects and array both are called data structure 
+
+let person : {
+    name: string;
+    age: number;
+    home:string;
+    mostLovedCity: string;
+} = {
+    name : "Usama",
+    age: 25,
+    home:"B540",
+    mostLovedCity: 'Karachi'
+}
+// value m value seperate hoti h using coma ,
+
+console.log(person);
+
+// agr hum chahty h k is object m sy koi ek attribute access kary tou 
+
+console.log(person.home);
