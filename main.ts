@@ -189,8 +189,20 @@ console.log(result,result1);
 
 
 // Type Literals 
-
+// ye value restricted h
 // set of values dy k user ko restrict karna
 // in teen values m sy hi value dy sakty h jou mention h
 // yaha py values casesensitive h 
 let shirtsixe: 'small' | 'medium' | 'large' = 'large';
+
+// Type Unions 
+
+// ye kehta h k user ko multiple types py restrict kardy
+// ye type restricted h
+
+let age: number | string = 5;
+
+// let age: number | string = '5';
+// let age: number | string = 'five';
+
+// yaha py user string ya number jis type m bhi value dydy  
